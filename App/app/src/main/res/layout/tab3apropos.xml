@@ -1,4 +1,5 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,10 +9,92 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="net.synerghetic.synerg.MainActivity$PlaceholderFragment">
 
-    <TextView
-        android:id="@+id/section_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tab1 A propos text"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1303dp">
 
-</RelativeLayout>
+        <TextView
+            android:id="@+id/section_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Synerg'hetic : le 14ème mandat"
+            android:textAppearance="@android:style/TextAppearance.Material.Title" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/section_label"
+            android:layout_marginTop="17dp"
+            android:lineSpacingExtra="8sp"
+            android:text="Nous sommes les 11 nouveaux administrateurs représentant Synerg'hetic pour l'année 2017-2018."
+            android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="11dp"
+            android:lineSpacingExtra="8sp"
+            android:text="Ensemble, nous rêvons de grandes choses pour notre Junior-Entreprise car son potentiel est énorme. "
+            android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="14dp"
+            android:lineSpacingExtra="8sp"
+            android:text="Treize mandats se sont succédé avec brio, ont réussi à faire évoluer la structure à une vitesse impressionnante et ont atteint en 2017 la prestigieuse finale du Prix d’Excellence, le prix qui récompense la meilleure Junior-Entreprise de France."
+            android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView5"
+            android:lineSpacingExtra="8sp"
+            android:text="C'est donc avec honneur que travaillons sans relache pour faire prospérer Synerg'hetic et l'emmener toujours plus loin."
+            android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quelques dates importantes"
+            android:textAppearance="@android:style/TextAppearance.Material.Title"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="22dp" />
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:headerDividersEnabled="false"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="19dp" />
+
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

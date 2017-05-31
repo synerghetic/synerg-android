@@ -12,6 +12,7 @@
         android:id="@+id/section_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tab1 Bureau text"/>
+        android:text="Qui est présent au bureau ?"
+        android:textAppearance="@android:style/TextAppearance.Material.Title" />
 
 </RelativeLayout>
