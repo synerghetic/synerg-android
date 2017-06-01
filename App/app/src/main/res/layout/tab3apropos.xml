@@ -87,7 +87,7 @@
             android:layout_marginTop="22dp" />
 
         <ListView
-            android:id="@+id/list"
+            android:id="@+id/tab3_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:headerDividersEnabled="false"
@@ -102,7 +102,7 @@
             android:layout_height="wrap_content"
             android:text="Remerciements"
             android:textAppearance="@android:style/TextAppearance.Material.Title"
-            android:layout_below="@+id/list"
+            android:layout_below="@+id/tab3_list"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginTop="32dp" />

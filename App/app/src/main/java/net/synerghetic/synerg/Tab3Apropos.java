@@ -39,7 +39,7 @@ public class Tab3Apropos extends Fragment {
                 "2017, Parmi les 4 meilleures J.E. de France"};
 
 
-        ListView lv = (ListView) rootView.findViewById(R.id.list);
+        ListView lv = (ListView) rootView.findViewById(R.id.tab3_list);
 
         ArrayAdapter<String> lva = new ArrayAdapter<String>(
                 getActivity(), android.R.layout.simple_list_item_1, history);

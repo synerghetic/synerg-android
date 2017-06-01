@@ -15,4 +15,12 @@
         android:text="Qui est présent au bureau ?"
         android:textAppearance="@android:style/TextAppearance.Material.Title" />
 
+    <ListView
+        android:id="@+id/tab1_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/section_label" />
+
 </RelativeLayout>
