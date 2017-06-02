@@ -39,13 +39,22 @@ public class Tab2Activite extends Fragment {
         InstagramService.getInstagram(new InstagramService.InstagramListener() {
             @Override
             public void onInstagramReceived(List<Instagram> instagrams) {
+                int index = 0;
                 for (Instagram instagram : instagrams){
+                    index++;
                     String imageUrl = instagram.getImages().getStandard_resolution().getUrl();
                     System.out.println(imageUrl);
 
-                    ImageView img = (ImageView) rootView.findViewById(R.id.instaView1);
-                    new ImageLoadTask(imageUrl, img).execute();
-                    //img.setImageBitmap(getBitmapFromURL(imageUrl));
+                    String viewID = "instaView" + index;
+                    int resID = getResources().getIdentifier(viewID, "id", "net.synerghetic.synerg");
+
+                    //ImageView img = (ImageView) rootView.findViewById(R.id.instaView1);
+                    ImageView img = (ImageView) rootView.findViewById(resID);
+                    System.out.println(img);
+
+                    if (img != null) {
+                        new ImageLoadTask(imageUrl, img).execute();
+                    }
                 }
             }
 
