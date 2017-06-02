@@ -1,9 +1,11 @@
-package net.synerghetic.synerg;
+package net.synerghetic.synerg.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
+
+import net.synerghetic.synerg.R;
 
 /**
  * Created by aude on 01/06/2017.

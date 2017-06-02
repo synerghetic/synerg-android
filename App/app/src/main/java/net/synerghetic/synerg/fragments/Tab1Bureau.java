@@ -1,4 +1,4 @@
-package net.synerghetic.synerg;
+package net.synerghetic.synerg.fragments;
 
 /**
  * Created by aude on 31/05/2017.
@@ -11,6 +11,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import net.synerghetic.synerg.R;
+
+import java.util.ArrayList;
 
 public class Tab1Bureau extends Fragment {
 
@@ -25,6 +29,14 @@ public class Tab1Bureau extends Fragment {
                 "Pierre, Résponsable Relations Publiques", "Yann-Edern, Responsable Projets",
                 "Constance, Responsable Projets", "Aymeric, Responsable Qualité",
                 "Anthelme, Responsable Commercial", "Antoine, Responsable Commercial", "Jules, Responsable Prospection"};
+
+
+
+
+        //ArrayList<String> medias = Medias.getMedias();
+
+        //String[] mediaString = new String[medias.size()];
+        //mediaString = medias.toArray(mediaString);
 
 
         ListView lv = (ListView) rootView.findViewById(R.id.tab1_list);

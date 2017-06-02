@@ -1,4 +1,4 @@
-package net.synerghetic.synerg;
+package net.synerghetic.synerg.fragments;
 
 import android.app.ListFragment;
 import android.os.Bundle;
@@ -14,6 +14,8 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import net.synerghetic.synerg.R;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
