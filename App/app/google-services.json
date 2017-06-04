@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "540751180850",
+    "firebase_url": "https://synergbureau-7ddd0.firebaseio.com",
+    "project_id": "synergbureau-7ddd0",
+    "storage_bucket": "synergbureau-7ddd0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540751180850:android:01c6b9f1c35ba430",
+        "android_client_info": {
+          "package_name": "net.synerghetic.synerg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540751180850-2keeiektf5uf7jid57rdf9kpeou7cnjl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.synerghetic.synerg",
+            "certificate_hash": "b4a7934aee5a37d8af1f35a3855d6d0caa3a3378"
+          }
+        },
+        {
+          "client_id": "540751180850-q4poo4co20r73p1ncs3gs5l6khgkiif6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7VMp0uHvO5gHjYIMc2xrpy0D7Oebq1Vo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540751180850-q777qrjas21pu78fj77n79ok3a2l5lsu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.synerghetic.synerghetic"
+              }
+            },
+            {
+              "client_id": "540751180850-q4poo4co20r73p1ncs3gs5l6khgkiif6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
