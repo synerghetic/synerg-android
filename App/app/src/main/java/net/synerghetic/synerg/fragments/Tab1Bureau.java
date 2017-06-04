@@ -32,7 +32,9 @@ public class Tab1Bureau extends Fragment {
 
 
 
-
+        for (String members : members) {
+            mWeatherTextView.append(members + "next");
+        }
         //ArrayList<String> medias = Medias.getMedias();
 
         //String[] mediaString = new String[medias.size()];

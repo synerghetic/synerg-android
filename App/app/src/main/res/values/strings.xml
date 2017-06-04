@@ -3,4 +3,13 @@
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="github_link">Le code source de l\'application est disponible sur <a href="http://www.github.com/synerghetic" target="_top">Github</a></string>
+
+    <!-- General availability status -->
+    <string name="status_green_string">Venez nous voir !</string>
+    <string name="status_orange_string">Une petite question à poser ?</string>
+    <string name="status_red_string">Ne pas déranger, réunion en cours...</string>
+
+    <!-- Individual availability status -->
+    <string name="status_present">Présent</string>
+    <string name="status_absent">Absent</string>
 </resources>
