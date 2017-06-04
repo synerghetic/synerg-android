@@ -111,14 +111,15 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginBottom="10dp"
             android:layout_marginTop="21dp"
             android:lineSpacingExtra="8sp"
             android:text="Cette aplication a été inspirée, pensée, imaginée et dévelopée par et pour les Enfants du Web."
             android:textAppearance="@android:style/TextAppearance.Material.Subhead"
-            android:textSize="18sp"
-            android:layout_below="@+id/textView2"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/textView8"
