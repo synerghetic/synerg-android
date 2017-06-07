@@ -19,8 +19,6 @@ import net.synerghetic.synerg.R;
 import net.synerghetic.synerg.fragments.Tab1Bureau;
 import net.synerghetic.synerg.fragments.Tab2Activite;
 import net.synerghetic.synerg.fragments.Tab3Apropos;
-import net.synerghetic.synerg.model.Instagram;
-import net.synerghetic.synerg.network.InstagramService;
 
 import java.util.List;
 
